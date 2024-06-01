@@ -1,0 +1,4 @@
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+.\python312embed\python.exe get-pip.py
+
+.\python312embed\python.exe -m pip install streamlit==1.34.0 gradio-tools openai
